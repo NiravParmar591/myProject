@@ -1,6 +1,6 @@
 let btn = document.querySelectorAll(".btn");
 
-Array.from(btn).forEach((e) => {
+btn.forEach((e) => {
     let num = document.querySelector(".num");
     // e.addEventListener("click" , () => {
         //     console.log("btn is clicked");
